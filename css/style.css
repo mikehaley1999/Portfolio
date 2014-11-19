@@ -1,0 +1,78 @@
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+body{
+  color:#222222;
+  font-size:1em;
+  font-family:"Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro{
+  text-align: center;
+}
+
+.masthead{
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/lvXbgcg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #FFCF33;
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book  Basic",Georgia,serif;
+  font-size: 2em;
+  color: #62EBFF;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family:"Open Sans","Helvetica Neue", sans-serif;
+  font-weight:bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color:#9AFFB4
+}
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  
+}
+.content-footer > h1,
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+  color: #577A7F
+}
+.social > li {
+  display: inline-block;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
